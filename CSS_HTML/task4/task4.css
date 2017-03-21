@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding: 0;
+    background-color: white;position: relative;
+}
+
+.Square{
+    position: relative;
+    left:50%;
+    top:50%;
+    width:400px;
+    height: 200px;
+    background-color: #ccc;
+    overflow: hidden;
+}
+.Circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #fc0;
+}
+#circle1{
+    position: absolute;
+    left: -50px;
+    top: -50px;
+}
+#circle2{
+    position: absolute;
+    right:-50px;
+    bottom: -50px;
+}

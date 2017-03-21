@@ -15,11 +15,12 @@ div{
 }
 figure{
     position:absolute;
-    left:0px;
+    top:20px;
+    left:20px;
     width: 200px;
-    height: 120px;
     background-color: white;
     padding: 20px;
+    margin:0px;
     border: inherit;
 }
 figure img{
@@ -28,10 +29,14 @@ figure img{
     border: inherit;
 }
 figure p{
-    float:right;
-    border: inherit;
+    position:absolute;
+    top:20px;
+    right:20px;
     width:80px;
-    font-size: small;
+    font-size: x-small;
+    text-align: right;
+    font-weight: bold;
+    margin:0;
 }
 article{
     margin-left:220px;
@@ -50,7 +55,6 @@ aside{
     width: 120px;
 }
 aside img{
-
     margin-bottom: 10px;
     width: 80px;
     height: 80px;
