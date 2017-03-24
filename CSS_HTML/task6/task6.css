@@ -3,15 +3,23 @@
     padding: 0;
 
 }
+html{
+    background-color:#5D5D5D ;
+    overflow: scroll;
+    height: 1500px;
+}
 body{
     background-color:white;
     width:980px;
     height:1386px;
-    position: relative;
-
+    position: absolute;
+    top:57px;
+    left:50%;
+    margin-left:-490px;
 }
 
 nav{
+
     position: absolute;
     top:0;
     left:44px;
@@ -26,15 +34,23 @@ nav{
 #navblock1{
     position: absolute;
     right: 0;
-    bottom:0;
+    bottom:6px;
     color:#d45d5c;
 }
 #navblock2{
-    float: left;
+    position: absolute;
+    bottom:0;
     color: #ffffff;
     width: 110px;
     height: 61px;
     background-color: #d45d5c;
+}
+#navblock2 p{
+    background-color:#d45d5c;
+    position: absolute;
+    left: 6px;
+    bottom: 6px;
+
 }
 
 #div1{
@@ -55,20 +71,25 @@ aside{
 }
 
 #div2{
+    background-color:white;
     width: 415px;
-    height: 700px;
+    height: 620px;
     position: absolute;
     left:44px;
-    bottom:80px;
+    bottom:120px;
+    overflow: hidden;
 }
 #div3{
+
     width:458px;
+    height: 620px;
 
     position: absolute;
-    bottom: 80px;
+    bottom: 120px;
     right:44px;
 }
 footer{
+
     width:892px;
     height: 61px;
     border-top: #938e8c solid 2px;
@@ -114,6 +135,7 @@ footer p{
 }
 
 .articleArea{
+    background-color:white;
     position: absolute;
     width: 641px;
     top:320px;
@@ -126,6 +148,8 @@ footer p{
     width:200px;
     font:12px/16px "SimSun";
     color: #767777;
+    padding:12px 0 0 0;
+    margin: 0;
 }
 #article1 h1{
     color: #418c59;
@@ -166,6 +190,7 @@ footer p{
     font:normal 24px/40px "Microsoft JhengHei";
     text-decoration: underline;
     color: #000000;
+    text-align: left;
 }
 #asideBox1 h1:first-letter{
     font-weight: bolder;
@@ -252,4 +277,169 @@ footer p{
 }
 #div2 article .doublespace{
     text-indent: 2em;
+}
+
+#div3 header{
+    width:458px;
+    height:275px;
+    overflow: hidden;
+    position: absolute;
+    top:0px;
+}
+#div3 header img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+}
+#div3 header #headdiv{
+    width: 458px;
+    height: 61px;
+    background-color: black;
+    opacity: 0.7;
+    z-index: 2;
+    padding-left: 50px;
+
+    position: absolute;
+    bottom:0;
+}
+#div3 header #headdiv p{
+    border-left: solid 3px #72b16a;
+    height: 44px;
+    margin-top: 6px;
+    font:normal 26px "Microsoft JhengHei";
+    color: #ffffff;
+    padding: 3px 0 0 9px;
+}
+#div3 header #headdiv p span{
+    margin-left: 5px;
+    font:italic 12px/140% "Microsoft JhengHei";
+    color: #72b16a;
+}
+
+#div3 #block2{
+    width: 459px;
+    height:318px;
+    background-color: #EEEED6 ;
+    position: absolute;
+    bottom: 0;
+}
+#block2 #table{
+    width: 459px;
+    height: 158px;
+
+    position: absolute;
+    top: 0px;
+    left:0px;
+}
+#block2 section ul{
+    width:420px;
+
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+#block2 section ul li{
+    width:420px;
+    font:16px "SimSun";
+    text-align: left;
+    color: #5a5b5b;
+    line-height: 36px;
+    list-style-type: none;
+}
+#block2 section ul li .first{
+    width: 0px;
+    height: 0px;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 12px solid #164266;
+    float: left;
+    margin: 12px 6px 0 0;
+}
+#block2 section ul li span{
+    font:italic 12px/20px "SimSun";
+    text-align: right;
+    color: #5a5b5b;
+}
+
+#block2 #insidebox{
+    width:260px;
+    height: 160px;
+    overflow: hidden;
+    background-color: #d45d5c;
+    color: #ffffff;
+
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+
+}
+#block2 #insidebox h1{
+    height: 86px;
+    width:70px;
+    border-right: 2px solid #ffffff;
+    font:110px/86px "Microsoft JhengHei";
+    text-align: right;
+    position: absolute;
+    left: 0px;
+    top:50%;
+    margin-top: -43px;
+}
+#block2 #insidebox section{
+
+    width:188px;
+    height: 86px;
+    position: absolute;
+    right:0;
+    top:50%;
+    margin-top: -43px;
+
+}
+#block2 #insidebox section h2{
+    padding-left: 12px;
+    text-align: left;
+    font:italic 21px/24px "SimHei";
+}
+#block2 #insidebox section p{
+    padding-left: 12px;
+    width: 188px;
+    font:12px/6px "SimHei";
+    position: absolute;
+    top:60px;
+}
+
+#para{
+    width:199px;
+    height: 160px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    font:italic 14px/16px "SimHei";
+    color: #5a5b5b;
+}
+#para span{
+    font:normal 72px "SimHei";
+    color: #d45d5c;
+
+}
+#para p{
+    position: absolute;
+    top:0;
+    left:0;
+    padding:18px;
+    text-align:justify;
+}
+#para #quote1{
+    ;
+    height: 30px;
+    float: left;
+    margin: -18px 0 0 -9px;
+}
+#para #quote2{
+    display: block	;
+    height: 30px;
+    float: right;
+    margin:-9px -9px 0 0;
 }
